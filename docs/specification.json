@@ -3,11 +3,7 @@
   "info": {
     "title": "Sample Service",
     "version": "1.0.0",
-    "description": "This is a sample service to test JSDoc, OpenAPI, and GitHub Actions",
-    "contact": {
-      "name": "Liam Neal Reilly",
-      "email": "lnealreilly@umass.edu"
-    }
+    "description": "This is a sample service to test JSDoc, OpenAPI, and GitHub Actions"
   },
   "paths": {
     "/testEndpoint": {

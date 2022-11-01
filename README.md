@@ -6,8 +6,6 @@
 
 This is a sample service to test JSDoc, OpenAPI, and GitHub Actions
 
-Email: <a href="mailto:lnealreilly@umass.edu">Liam Neal Reilly</a> 
-
 <h1 id="sample-service-default">Default</h1>
 
 ## get__testEndpoint
