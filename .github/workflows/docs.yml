@@ -39,7 +39,7 @@ jobs:
           npm install widdershins
           npm i swagger-jsdoc
           yarn swagger-jsdoc -d docs/definition.yml ./app.js -o docs/specification.json
-          yarn widdershins --verbose -c ./docs/specification.json -o README.m
+          yarn widdershins --verbose -c ./docs/specification.json -o README.md
           
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
