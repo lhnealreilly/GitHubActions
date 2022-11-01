@@ -2,12 +2,17 @@
   "openapi": "3.0.0",
   "info": {
     "title": "Sample Service",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "This is a sample service to test JSDoc, OpenAPI, and GitHub Actions",
+    "contact": {
+      "name": "Liam Neal Reilly",
+      "email": "lnealreilly@umass.edu"
+    }
   },
   "paths": {
-    "/": {
-      "post": {
-        "description": "Sample Post Endpoint!",
+    "/testEndpoint": {
+      "get": {
+        "description": "Welcome to swagger-jsdoc!",
         "responses": {
           "200": {
             "description": "Returns a mysterious string."

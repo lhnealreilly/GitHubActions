@@ -7,14 +7,14 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
 
 /**
  * @openapi
- * /:
- *   post:
- *     description: Sample Post Endpoint!
+ * /testEndpoint:
+ *   get:
+ *     description: Welcome to swagger-jsdoc!
  *     responses:
  *       200:
  *         description: Returns a mysterious string.
  */
-app.post('/testEndpoint', (req, res) => {
+app.get('/testEndpoint', (req, res) => {
 
 });
 
