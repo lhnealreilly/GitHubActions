@@ -1,0 +1,21 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Sample Service",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/": {
+      "post": {
+        "description": "Sample Post Endpoint!",
+        "responses": {
+          "200": {
+            "description": "Returns a mysterious string."
+          }
+        }
+      }
+    }
+  },
+  "components": {},
+  "tags": []
+}
