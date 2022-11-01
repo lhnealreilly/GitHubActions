@@ -36,8 +36,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          npm install swagger-jsdoc,
-          npm install widdershins,
-          yarn swagger-jsdoc -d docs/definition.yml ./app.js -o docs/specification.json,
-          widdershins --verbose -c ./docs/specification.json -o README.md
+          npm install widdershins
+          npm i swagger-jsdoc
+          yarn swagger-jsdoc -d docs/definition.yml ./app.js -o docs/specification.json
+          widdershins --verbose -c ./docs/specification.json -o README.m
           
