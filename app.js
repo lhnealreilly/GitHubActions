@@ -1,18 +1,12 @@
 import express from "express"
 const app = express();
-import swaggerUi from "swagger-ui-express"
 import swaggerDoc from './docs/specification.json' assert {'type' : 'json'}
-
+import swaggerUi from 'swagger-ui-express'
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc));
-
 /**
- * @openapi
- * /testEndpoint:
- *   get:
- *     description: Welcome to swagger-jsdoc!
- *     responses:
- *       200:
- *         description: Returns a mysterious string.
+ * GET /api/v1
+ * @summary This is the summary of the endpoint
+ * @return {object} 200 - success response
  */
 app.get('/testEndpoint', (req, res) => {
 
