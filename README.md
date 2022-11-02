@@ -12,6 +12,20 @@ Email: <a href="mailto:lnealreilly@umass.edu">Liam Neal Reilly</a>
 
 ## get__testEndpoint
 
+> Code samples
+
+```javascript
+import axios from "axios";
+
+const options = {method: 'GET', url: 'https://example.com/testEndpoint'};
+
+axios.request(options).then(function (response) {
+  console.log(response.data);
+}).catch(function (error) {
+  console.error(error);
+});
+```
+
 `GET /testEndpoint`
 
 Welcome to swagger-jsdoc!
