@@ -1,3 +1,17 @@
+---
+title: Sample Service v1.0.0
+language_tabs:
+  - javascript: Javascript
+language_clients:
+  - javascript: axios
+toc_footers: []
+includes: []
+search: true
+highlight_theme: darkula
+headingLevel: 2
+
+---
+
 <!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="sample-service">Sample Service v1.0.0</h1>
