@@ -37,8 +37,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           npm install widdershins
-          npm i swagger-jsdoc
-          yarn swagger-jsdoc -d docs/definition.yml ./app.js -o docs/specification.json
+          npm run build
           yarn widdershins --environment ./docs/env.json --httpsnippet --omitHeader docs/specification.json -o README.md
           
       - uses: stefanzweifel/git-auto-commit-action@v4
