@@ -17,6 +17,7 @@
   "dependencies": {
     "express": "^4.18.2",
     "swagger-ui-express": "^4.5.0",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "widdershins": "^4.0.1"
   }
 }
