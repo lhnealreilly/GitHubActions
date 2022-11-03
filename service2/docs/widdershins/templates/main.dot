@@ -1,7 +1,10 @@
 {{= data.tags.section }}
 <h1 id="{{=data.title_prefix}}">{{=data.api.info && data.api.info.title}} {{=data.version}}</h1>
 
+<details> <summary> <b>Table of Contents</b> </summary>
 _TOC_
+
+</details>
 
 {{? data.api.info && data.api.info.description}}{{=data.api.info.description}}{{?}}
 
