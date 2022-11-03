@@ -12,6 +12,14 @@ app.get('/testEndpoint', (req, res) => {
 
 });
 
+/**
+ * POST /api/createUser
+ * @description Creates a new user
+ * @summary This endpoint creates a new user object in the database.
+ * @param {requestBodyType} request.body.name - User Name
+ * @return {responseType} 404 - failed - reason
+ */
+
 app.listen(4000, () => {
     console.log(`Example app listening on port ${4000}`)
   })
