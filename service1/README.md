@@ -106,7 +106,7 @@ Creates a new user
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |name|path|string|false|name param description|
-|body|body|[userObject](#schemauserobject)|true|User Data|
+|body|body|[userObject](#userobject)|true|User Data|
 
 <details> <summary> Example responses </summary>
 

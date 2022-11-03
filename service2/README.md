@@ -128,7 +128,7 @@ Creates a new user
 |Name|In|Type|Required|Description|
 |---|---|---|---|---|
 |name|path|string|false|name param description|
-|body|body|[userObject](#schemauserobject)|true|User Data|
+|body|body|[userObject](#userobject)|true|User Data|
 
 <details> <summary> Example responses </summary>
 
@@ -149,7 +149,7 @@ Creates a new user
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Created new user|[userObject](#schemauserobject)|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Created new user|[userObject](#userobject)|
 |404|[Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)|failed|string|
 
 <aside class="success">
