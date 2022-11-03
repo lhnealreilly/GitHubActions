@@ -1,13 +1,14 @@
 import fs from 'fs';
 import expressJSDocSwagger from 'express-jsdoc-swagger';
 import express from 'express';
+import packageInfo from '../package.json';
 
 const app = express();
 
 const options = {
   info: {
-    version: '1.0.0',
-    title: 'Service 2',
+    version: packageInfo.version,
+    title: packageInfo.name,
     license: {
       name: 'MIT',
     },
