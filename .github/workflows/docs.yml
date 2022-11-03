@@ -35,7 +35,7 @@ jobs:
         run: |
           for d in */ ; do
               echo "${d}"
-              if test -f "${d}/docs/swagger.js"; then
+              if test -f "${d}/docs/env.json"; then
                   cd "$d"
                   npm install widdershins
                   npm run build
