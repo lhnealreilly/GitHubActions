@@ -34,11 +34,13 @@ jobs:
       - name: Run a multi-line script
         run: |
           for d in */ ; do
+              echo "${d}"
               if test -f "${d}/docs/swagger.js"; then
                   cd "$d"
                   npm install widdershins
                   npm run build
                   yarn widdershins --environment docs/env.json --httpsnippet --omitHeader -u docs/widdershins/templates/ docs/specification.json  README.md
+                  cd ..
               fi
           done
           
