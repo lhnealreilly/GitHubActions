@@ -34,7 +34,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           for d in */ ; do
-              if test -f "${d}/docs/specification.json"; then
+              if test -f "${d}/docs/swagger.js"; then
                   cd "$d"
                   npm install widdershins
                   npm run build
