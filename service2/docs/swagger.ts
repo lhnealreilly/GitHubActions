@@ -1,14 +1,8 @@
-import path from 'path';
-import {fileURLToPath} from 'url';
 import fs from 'fs';
 import expressJSDocSwagger from 'express-jsdoc-swagger';
 import express from 'express';
 
 const app = express();
-const __filename = fileURLToPath(import.meta.url);
-
-// 👇️ "/home/john/Desktop/javascript"
-const __dirname = path.dirname(__filename);
 
 const options = {
   info: {
