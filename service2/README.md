@@ -1,5 +1,5 @@
 
-<h1 id="service-2">Service 2 v1.0.0</h1>
+<h1 id="service2">service2 v1.0.0</h1>
 
 ## Author: Liam Neal Reilly
 
@@ -13,7 +13,7 @@ Base URLs:
 
 - HTTP Authentication, scheme: basic
 
-<h1 id="service-2-default">Default</h1>
+<h1 id="service2-default">Default</h1>
 
 ## get__api_v1
 
