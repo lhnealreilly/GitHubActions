@@ -26,7 +26,7 @@ app.get('/testEndpoint', (req, res) => {
  * @summary This endpoint creates a new user object in the database.
  * @param {string} name.path - name param description
  * @param {userObject} request.body.required - User Data
- * @return {object} 201 - Created new user
+ * @return {userObject} 201 - Created new user
  * @return {string} 404 - failed - reason
  */
 
