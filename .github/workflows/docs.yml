@@ -38,7 +38,7 @@ jobs:
                   cd "$d"
                   npm install widdershins
                   npm run build
-                  yarn widdershins --environment docs/env.json --httpsnippet -c  docs/specification.json  README.md 
+                  yarn widdershins --environment docs/env.json --httpsnippet --omitHeader -u docs/.widdershins/templates/ docs/specification.json  README.md
               fi
           done
           
