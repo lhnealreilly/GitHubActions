@@ -1,3 +1,17 @@
+---
+title: Albums store v1.0.0
+language_tabs:
+  - javascript: Javascript
+language_clients:
+  - javascript: axios
+toc_footers: []
+includes: []
+search: true
+highlight_theme: darkula
+headingLevel: 2
+
+---
+
 <!-- Generator: Widdershins v4.0.1 -->
 
 <h1 id="albums-store">Albums store v1.0.0</h1>
@@ -17,24 +31,6 @@ Base URLs:
 <h1 id="albums-store-default">Default</h1>
 
 ## get__api_v1
-
-> Code samples
-
-```javascript
-import axios from "axios";
-
-const options = {
-  method: 'GET',
-  url: 'https://example.com/api/v1',
-  headers: {Accept: 'application/json'}
-};
-
-axios.request(options).then(function (response) {
-  console.log(response.data);
-}).catch(function (error) {
-  console.error(error);
-});
-```
 
 `GET /api/v1`
 
@@ -61,24 +57,6 @@ This operation does not require authentication
 </aside>
 
 ## post__api_createUser
-
-> Code samples
-
-```javascript
-import axios from "axios";
-
-const options = {
-  method: 'POST',
-  url: 'https://example.com/api/createUser',
-  headers: {'Content-Type': 'application/json', Accept: 'reason'}
-};
-
-axios.request(options).then(function (response) {
-  console.log(response.data);
-}).catch(function (error) {
-  console.error(error);
-});
-```
 
 `POST /api/createUser`
 
