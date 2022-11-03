@@ -60,5 +60,51 @@ axios.request(options).then(function (response) {
 This operation does not require authentication
 </aside>
 
+## post__api_createUser
+
+> Code samples
+
+```javascript
+import axios from "axios";
+
+const options = {
+  method: 'POST',
+  url: 'https://example.com/api/createUser',
+  headers: {'Content-Type': 'application/json', Accept: 'reason'}
+};
+
+axios.request(options).then(function (response) {
+  console.log(response.data);
+}).catch(function (error) {
+  console.error(error);
+});
+```
+
+`POST /api/createUser`
+
+*This endpoint creates a new user object in the database.*
+
+Creates a new user
+
+> Body parameter
+
+```json
+false
+```
+
+> Example responses
+
+<h3 id="post__api_createuser-responses">Responses</h3>
+
+|Status|Meaning|Description|Schema|
+|---|---|---|---|
+|404|[Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)|failed|None|
+
+<h3 id="post__api_createuser-responseschema">Response Schema</h3>
+
+<aside class="success">
+This operation does not require authentication
+</aside>
+
 # Schemas
 
