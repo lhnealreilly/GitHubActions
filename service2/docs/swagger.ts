@@ -23,7 +23,7 @@ const options = {
   exposeSwaggerUI: false,
   baseDir: `./`,
   // Glob pattern to find your jsdoc files (multiple patterns can be added in an array)
-  filesPattern: ['./**/*.js'],
+  filesPattern: ['./**/*.ts'],
 };
 
 const s = expressJSDocSwagger(app)(options)
