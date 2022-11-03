@@ -17,6 +17,7 @@ const options = {
     license: {
       name: 'MIT',
     },
+    description: fs.readFileSync(`${__dirname}/service-description.md`, 'utf-8')
   },
   security: {
     BasicAuth: {
