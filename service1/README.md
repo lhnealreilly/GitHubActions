@@ -15,9 +15,7 @@ Base URLs:
 
 ## get__api_v1
 
-`GET /api/v1`
-
-<details> <summary>Code samples</summary>
+> Code samples
 
 ```javascript
 import axios from "axios";
@@ -35,7 +33,7 @@ axios.request(options).then(function (response) {
 });
 ```
 
-</details>
+`GET /api/v1`
 
 *This is the summary of the endpoint*
 
@@ -53,70 +51,9 @@ axios.request(options).then(function (response) {
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|success response|string|
+|200|[OK](https://tools.ietf.org/html/rfc7231#section-6.3.1)|success response|Inline|
 
-<aside class="success">
-This operation does not require authentication
-</aside>
-
-## post__api_createUser
-
-`POST /api/createUser`
-
-<details> <summary>Code samples</summary>
-
-```javascript
-import axios from "axios";
-
-const options = {
-  method: 'POST',
-  url: 'https://example.com/api/createUser',
-  headers: {'Content-Type': 'application/json', Accept: 'reason'},
-  data: {name: 'string', email: 'string'}
-};
-
-axios.request(options).then(function (response) {
-  console.log(response.data);
-}).catch(function (error) {
-  console.error(error);
-});
-```
-
-</details>
-
-*This endpoint creates a new user object in the database.*
-
-Creates a new user
-
-<details> <summary>Body parameter</summary>
-
-```json
-{
-  "name": "string",
-  "email": "string"
-}
-```
-
-</details>
-
-<h3 id="post__api_createuser-parameters">Parameters</h3>
-
-|Name|In|Type|Required|Description|
-|---|---|---|---|---|
-|name|path|string|false|name param description|
-|body|body|[userObject](#schemauserobject)|true|User Data|
-
-<details> <summary> Example responses </summary>
-
-> 404 Response
-
-</details>
-
-<h3 id="post__api_createuser-responses">Responses</h3>
-
-|Status|Meaning|Description|Schema|
-|---|---|---|---|
-|404|[Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)|failed|string|
+<h3 id="get__api_v1-responseschema">Response Schema</h3>
 
 <aside class="success">
 This operation does not require authentication
