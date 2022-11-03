@@ -1,7 +1,7 @@
 
 <h1 id="service2">service2 v1.0.0</h1>
 
-## Table of Contents
+<details> <summary> <b>Table of Contents</b> </summary>
 
 - [Author](#author)
 - [Service Description](#service-description)
@@ -14,6 +14,8 @@
   - [userObject](#userobject)
     - [Properties](#properties)
 
+
+</details>
 
 # Author
 
