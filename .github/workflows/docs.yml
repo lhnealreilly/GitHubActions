@@ -40,6 +40,8 @@ jobs:
                   npm install widdershins
                   npm run build
                   yarn widdershins --environment docs/env.json --httpsnippet --omitHeader -u docs/widdershins/templates/ docs/specification.json  README.md
+                  # Removes schema tags in order to have links to schemas function
+                  sed -i  's/#schema/#/g' README.md
                   ./docs/markdown-toc.sh README.md | xargs -I {} -0 gawk -i inplace -v r='{}' '{gsub(/_TOC_/,r)}1' README.md
                   cd ..
               fi
