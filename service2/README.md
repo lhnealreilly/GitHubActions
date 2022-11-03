@@ -1,13 +1,31 @@
 
 <h1 id="service2">service2 v1.0.0</h1>
 
-_TOC_
+## Table of Contents
 
-### Author: Liam Neal Reilly
+- [Author](#author)
+- [Service Description](#service-description)
+- [How to build](#how-to-build)
+- [Authentication](#authentication)
+- [Default](#default)
+  - [get__api_v1](#get__api_v1)
+  - [post__api_createUser](#post__api_createuser)
+- [Schemas](#schemas)
+  - [userObject](#userobject)
+    - [Properties](#properties)
 
-### Service Description:
+
+# Author
+
+Liam Neal Reilly
+
+# Service Description
 
 This is the second service that is super cool
+
+# How to build
+
+Docker
 
 Base URLs:
 
@@ -130,7 +148,7 @@ This operation does not require authentication
 
 # Schemas
 
-<h2 id="tocS_userObject">userObject</h2>
+## userObject
 
 ```json
 {

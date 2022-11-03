@@ -62,7 +62,7 @@ Base URLs:
 {{ var schema = data.api.components.schemas[s]; }}
 
 {{= data.tags.section }}
-<h2 id="tocS_{{=s}}">{{=s}}</h2>
+## {{=s}}
 
 {{? data.options.yaml }}
 ```yaml
