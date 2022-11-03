@@ -95,7 +95,7 @@ import axios from "axios";
 const options = {
   method: 'POST',
   url: 'https://example.com/api/createUser',
-  headers: {'Content-Type': 'application/json', Accept: 'reason'},
+  headers: {'Content-Type': 'application/json', Accept: 'application/json'},
   data: {name: 'string', email: 'string'}
 };
 
@@ -132,6 +132,12 @@ Creates a new user
 
 <details> <summary> Example responses </summary>
 
+> 201 Response
+
+```json
+{}
+```
+
 > 404 Response
 
 </details>
@@ -140,7 +146,10 @@ Creates a new user
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Created new user|Inline|
 |404|[Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)|failed|string|
+
+<h3 id="post__api_createuser-responseschema">Response Schema</h3>
 
 <aside class="success">
 This operation does not require authentication
