@@ -135,7 +135,10 @@ Creates a new user
 > 201 Response
 
 ```json
-{}
+{
+  "name": "string",
+  "email": "string"
+}
 ```
 
 > 404 Response
@@ -146,10 +149,8 @@ Creates a new user
 
 |Status|Meaning|Description|Schema|
 |---|---|---|---|
-|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Created new user|Inline|
+|201|[Created](https://tools.ietf.org/html/rfc7231#section-6.3.2)|Created new user|[userObject](#schemauserobject)|
 |404|[Not Found](https://tools.ietf.org/html/rfc7231#section-6.5.4)|failed|string|
-
-<h3 id="post__api_createuser-responseschema">Response Schema</h3>
 
 <aside class="success">
 This operation does not require authentication
